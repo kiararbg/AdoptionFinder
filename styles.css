@@ -1,0 +1,123 @@
+*{
+    margin: 0 auto;
+    padding: auto;
+}
+
+body{
+    background-color: whitesmoke;
+}
+
+.Header {
+    background-color:whitesmoke;
+    text-align: center;
+    margin: 15px;
+}
+
+h1, p{
+    color: rgb(33, 45, 67);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 5px;
+}
+
+h1{
+    font-size: 35px;
+    padding: 5px;
+}
+
+p{
+    font-size: 18px;
+}
+
+input{
+    border: solid 3px  rgb(47, 58, 82); 
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    font-size: 15px;
+}
+
+.card{
+    margin: 15px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: white;
+    width: 370px;
+    height: 400px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(210, 125, 125, 0.1);
+    flex-wrap: wrap;
+}
+
+p > p{
+    margin:10px;
+}
+
+.pet{
+    padding: 20px;
+    background-color: #fff;
+}
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    padding-top:5px ;
+    flex-wrap: wrap;
+}
+
+img{
+    border: 1px solid rgb(52, 48, 48);
+    border-radius:5px ;
+    margin: 5px;
+}
+
+.info{
+    color:rgb(11, 34, 11) ;
+}
+
+button {
+    border-radius: 5px;
+    background-color:rgb(183, 206, 232);
+    border-color: rgb(137, 138, 158);
+    font-size: 17px;
+    margin: 5px;
+    
+}
+
+.adopt{
+    background-color: rgb(93, 183, 93);
+    border-radius: 5px;
+    border-color: green;
+    border: 2px solid green;
+    padding: 8px;
+    font-size: 18px;
+    margin: 10px;
+    text-decoration: none;
+    color: rgb(11, 34, 11);
+    
+}
+
+#dismissMessage{
+    background-color: #e0dcdc;
+    border-radius: 5px;
+    border: 2px solid  rgb(9, 31, 29);
+    padding: 8px;
+    font-size: 16px;
+    margin: 5px;
+    text-decoration: none;
+    color: rgb(11, 34, 11);
+}
+
+.adopt:hover{
+    cursor: pointer;
+}
+
+#resultsContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap:25px;
+    column-gap:10px;
+    margin-top:20px;
+}
